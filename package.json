@@ -7,9 +7,6 @@
   "files": [
     "bin.js"
   ],
-  "scripts": {
-    "preinstall": "npx @time-loop/only-allow"
-  },
   "keywords": [
     "pnpm",
     "cnpm",
