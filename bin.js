@@ -17,9 +17,8 @@ if (!isInstalledAsDependency) {
   }
 
   const usedPM = whichPMRuns()
+  const boxenOpts = { borderColor: 'red', borderStyle: 'double', padding: 1 }
   if (usedPM && usedPM.name !== wantedPM) {
-    const boxenOpts = { borderColor: 'red', borderStyle: 'double', padding: 1 }
-
     switch (wantedPM) {
       case 'npm':
         console.log(boxen('Use "npm install" for installation in this project', boxenOpts))
