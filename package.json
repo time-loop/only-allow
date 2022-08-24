@@ -1,6 +1,6 @@
 {
-  "name": "only-allow",
-  "version": "1.1.1",
+  "name": "@time-loop/only-allow",
+  "version": "1.2.0",
   "description": "Force a specific package manager to be used on a project",
   "main": "bin.js",
   "bin": "bin.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pnpm/only-allow.git"
+    "url": "git+https://github.com/time-loop/only-allow.git"
   },
   "bugs": {
     "url": "https://github.com/pnpm/only-allow/issues"
@@ -28,5 +28,8 @@
     "boxen": "^4.2.0",
     "semver": "^7.3.7",
     "which-pm-runs": "^1.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
